@@ -1,0 +1,74 @@
+{
+  "trial_id": "2",
+  "hyperparameters": {
+    "space": [
+      {
+        "class_name": "Int",
+        "config": {
+          "name": "Units",
+          "default": null,
+          "conditions": [],
+          "min_value": 8,
+          "max_value": 128,
+          "step": 8,
+          "sampling": "linear"
+        }
+      }
+    ],
+    "values": {
+      "Units": 16
+    }
+  },
+  "metrics": {
+    "metrics": {
+      "accuracy": {
+        "direction": "max",
+        "observations": [
+          {
+            "value": [
+              0.683068037033081
+            ],
+            "step": 4
+          }
+        ]
+      },
+      "loss": {
+        "direction": "min",
+        "observations": [
+          {
+            "value": [
+              0.6142618656158447
+            ],
+            "step": 4
+          }
+        ]
+      },
+      "val_accuracy": {
+        "direction": "max",
+        "observations": [
+          {
+            "value": [
+              0.7792207598686218
+            ],
+            "step": 4
+          }
+        ]
+      },
+      "val_loss": {
+        "direction": "min",
+        "observations": [
+          {
+            "value": [
+              0.6070237755775452
+            ],
+            "step": 4
+          }
+        ]
+      }
+    }
+  },
+  "score": 0.7792207598686218,
+  "best_step": 4,
+  "status": "COMPLETED",
+  "message": null
+}
